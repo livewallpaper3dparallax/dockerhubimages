@@ -1,4 +1,4 @@
-name: Build and Push Docker image to Docker Hub 
+name: Build and Push Docker image to Docker Hub
 
 on: push
 jobs:
@@ -20,4 +20,4 @@ jobs:
         with:
           context: DockerFileFolder/
           push: true
-          tags: rekhugopal/testrepo:latest
+          tags: imam3543/wallpaper:latest
